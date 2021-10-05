@@ -7,11 +7,17 @@ body,
   font-size: 62.5%;
 }
 .parent {
-  font-size: 10px;
+  font-size: 20px;
 }
-.px-size {
-  font-size: 10px;
+h2 {
+  margin: 3rem;
 }
-.rem-size {
-  font-size: 1re;
+.sentence-1 {
+  font-size: 20px;
+}
+.sentence-2 {
+  font-size: 2rem;
+}
+.sentence-3 {
+  font-size: 3em;
 }
