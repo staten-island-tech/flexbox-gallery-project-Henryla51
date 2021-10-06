@@ -7,17 +7,20 @@ body,
   font-size: 62.5%;
 }
 .parent {
-  font-size: 20px;
+  display: flex;
+  width: 80vw;
+  justify-content: space-around;
 }
 h2 {
   margin: 3rem;
 }
 .sentence-1 {
-  font-size: 20px;
+  width: 28%;
+  font-size: 40px;
 }
-.sentence-2 {
-  font-size: 2rem;
+.row-1 {
+  padding: 50px 100px 50px 100px;
 }
-.sentence-3 {
-  font-size: 3em;
+.row-2 {
+  padding: 50px 100px 50px 100px;
 }
