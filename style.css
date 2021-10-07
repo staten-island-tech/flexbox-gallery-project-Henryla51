@@ -5,10 +5,15 @@ body,
   margin: 0;
   box-sizing: border-box;
   font-size: 62.5%;
+  background-color: aquamarine;
 }
 .parent {
+}
+.card {
   display: flex;
-  width: 80vw;
+}
+.skins {
+  display: flex;
   justify-content: space-around;
 }
 h2 {
@@ -18,9 +23,6 @@ h2 {
   width: 28%;
   font-size: 40px;
 }
-.row-1 {
-  padding: 50px 100px 50px 100px;
-}
-.row-2 {
+.card-img {
   padding: 50px 100px 50px 100px;
 }
