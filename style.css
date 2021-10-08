@@ -8,13 +8,16 @@ body,
   background-color: aquamarine;
 }
 .parent {
+  display: flex;
 }
 .card {
+  font-size: 30px;
+  border: solid black 1px;
   display: flex;
+  flex-direction: row;
 }
-.skins {
-  display: flex;
-  justify-content: space-around;
+.card-img {
+  text-align: center;
 }
 h2 {
   margin: 3rem;
@@ -22,7 +25,4 @@ h2 {
 .sentence-1 {
   width: 28%;
   font-size: 40px;
-}
-.card-img {
-  padding: 50px 100px 50px 100px;
 }
