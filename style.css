@@ -5,7 +5,7 @@ body,
   margin: 0;
   box-sizing: border-box;
   font-size: 62.5%;
-  background-color: aquamarine;
+  background-color: rgb(228, 97, 22);
 }
 .parent {
   display: flex;
@@ -18,12 +18,13 @@ body,
 }
 p {
   margin: 3rem;
+  color: blue;
 }
 .sentence-1 {
   font-size: 10em;
   text-align: center;
-  color: black;
-  border: 1rem solid black;
+  color: rgb(0, 0, 0);
+  border: 0.75rem solid black;
   margin-left: 50rem;
   margin-right: 50rem;
   margin-top: 10rem;
@@ -37,11 +38,11 @@ p {
 .card-1,
 .card-2,
 .card-3 {
-  width: 28%;
-  height: 55%;
-  border: 3px solid black;
+  width: 24%;
+  height: 75%;
+  border: 3px solid rgb(48, 10, 218);
   text-align: center;
-  background-color: blue;
+  background-color: rgb(1, 1, 14);
   box-shadow: 4px 4px 8px;
   margin-bottom: 3em;
 }
