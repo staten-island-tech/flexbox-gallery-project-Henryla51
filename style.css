@@ -16,6 +16,10 @@ body,
 .card-img {
   text-align: center;
 }
+.card-img:hover {
+  transform: scale(1.1);
+  outline: 1rem solid blue;
+}
 p {
   margin: 3rem;
   color: blue;
@@ -52,4 +56,22 @@ p {
   border: 5px solid black;
   margin-top: 1.75em;
   margin-bottom: 1.75em;
+}
+.bad-game {
+}
+.balanced {
+}
+.ping {
+}
+.inters {
+}
+.toxicity {
+}
+.afk {
+}
+.years {
+}
+.rock {
+}
+.scam {
 }
