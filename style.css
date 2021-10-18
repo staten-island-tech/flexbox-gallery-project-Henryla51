@@ -5,6 +5,8 @@ body,
   margin: 0;
   box-sizing: border-box;
   font-size: 62.5%;
+}
+body {
   background-color: rgb(228, 97, 22);
 }
 .parent {
@@ -86,7 +88,7 @@ body,
 }
 p {
   margin: 3rem;
-  color: blue;
+  color: rgb(18, 216, 18);
 }
 .sentence-1 {
   font-size: 10em;
@@ -122,20 +124,95 @@ p {
   margin-bottom: 1.75em;
 }
 .bad-game {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
 }
 .balanced {
 }
 .ping {
+  opacity: 1;
+}
+.ping:hover {
+  opacity: 0.8;
+  transform: scale(0.8);
 }
 .inters {
+  display: inline-block;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.inters:hover,
+.inters:focus,
+.inters:active {
+  transform: translateY(-10rem);
 }
 .toxicity {
 }
 .afk {
+  border: 3px solid #0740df;
+}
+
+.afk:hover {
+  border: 3px dotted #093be0;
+  color: #0e24e9;
+  background: rgb(235, 10, 10);
 }
 .years {
+  display: inline-block;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  transition-duration: 0.5s;
+}
+.years:hover,
+.years:focus,
+.years:active {
+  transform: scale(1.5);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
 }
 .rock {
 }
 .scam {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+}
+.scam:before {
+  pointer-events: none;
+  position: absolute;
+  content: "";
+  height: 0;
+  width: 0;
+  top: 0;
+  right: 0;
+  background: white;
+  /* IE9 */
+  background: linear-gradient(225deg, white 45%, #aaa 50%, #ccc 56%, white 80%);
+  box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.4);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: width, height;
+  transition-property: width, height;
+}
+.scam:hover:before,
+.scam:focus:before,
+.scam:active:before {
+  width: 25px;
+  height: 25px;
 }
