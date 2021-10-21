@@ -205,4 +205,15 @@ transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
 transition: 3s;
 }
 
-@media all and (max-width: 10rem) 
+@media (width: 1170px) and (height: 2532px) {
+    .hi {
+height: 50rem;
+width: 86.5rem;
+
+    }
+    .parent {
+  
+    }
+    }
+    
+  
