@@ -8,6 +8,7 @@ body,
 }
 body {
   background-color: rgb(228, 97, 22);
+  
 }
 .parent {
   display: flex;
@@ -209,11 +210,24 @@ transition: 3s;
     .hi {
 height: 50rem;
 width: 86.5rem;
-
     }
-    .parent {
+  }
+@media (width: 768px) and (height: 1024px) {
+  .hi {
+    height: 84rem;
+    width: 57rem;       
+  }
+  .card-img 
+  {
+    max-width: 10pc;
   
-    }
-    }
+  }
+}
+@media (width:1920px) and (height:1080px) {
+  .hi {
+    height: 60rem;
+    width: 142rem;
+  }
+}
     
   
